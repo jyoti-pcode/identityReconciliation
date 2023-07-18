@@ -8,7 +8,7 @@ BaseUrl:http://localhost:3000
 
 EndPoint details
     {
-        "url": "identity/",
+        "url": "identify/",
         "method": "post",
         "InputType":"body",
         example :req.body:{email:string,phoneNumber:string} = {
