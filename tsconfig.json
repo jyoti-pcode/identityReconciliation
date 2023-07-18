@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "rootDir": "src",
+        "typeRoots": [
+            "./types"
+        ],
+        "baseUrl": "./",
+        "paths": {
+            "@models/*": [
+                "src/models/*"
+            ],
+            "@enums/*": [
+                "src/enums/*"
+            ],
+            "@config/*": [
+                "src/config/*"
+            ],
+            "@entity/*": [
+                "src/entity/*"
+            ],
+        },
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "skipLibCheck": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+    }
+}
